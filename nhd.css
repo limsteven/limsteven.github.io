@@ -56,13 +56,10 @@ body{
   padding:12px 10px 12px 10px;
   background-color:rgba(66,141,48,0.4);
 }
-.row{
+.container .row{
   display:flex;
 }
-.column-1{
-  flex:50%;
-}
-.column-2{
+.container .row .column{
   flex:50%;
 }
 .container img{
@@ -134,6 +131,7 @@ body{
   background:rgba(0, 0, 0, 0.5);
 }
 
+/* Sidebar */
 .icon-bar{
   position:fixed;
   top:50%;

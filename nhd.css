@@ -12,6 +12,10 @@ body{
   font-family:'Special Elite';
 }
 
+,container1{
+  position: relative;
+}
+
 .header{
   top:0px;
   height:35%;

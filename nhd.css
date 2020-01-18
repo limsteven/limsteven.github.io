@@ -33,6 +33,50 @@ body{
   color:rgb(227, 83, 83);
 }
 
+/* Container */
+.container{
+  top:calc(10px + 0.5vw);
+  font-size:calc(12px + 0.5vw);
+  color:white;
+  text-shadow:1px 1px 5px #000000;
+  width:70%;
+  position:relative;
+}
+.container > p{
+  padding:0px;
+}
+.container p a{
+  color:rgb(227, 83, 83);
+  font-weight:900;
+}
+
+.text-quote{
+  background:rgba(0, 0, 0, 0.4);
+  color:#f1f1f1;
+  padding:12px 10px 12px 10px;
+  background-color:rgba(66,141,48,0.4);
+}
+.row{
+  display:flex;
+}
+.column-1{
+  flex:50%;
+}
+.column-2{
+  flex:50%;
+}
+.container img{
+  width:100%;
+  box-shadow:2px 3px 2px grey;
+}
+.container img + p{
+  margin-top:1em;
+  font-size:15px;
+  text-align:center;
+}
+
+
+/* Top Navigation Bar */
 .navbar{
   position:absolute;
   top:0px;

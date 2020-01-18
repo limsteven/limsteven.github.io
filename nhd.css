@@ -39,7 +39,7 @@ body{
   font-size:calc(12px + 0.5vw);
   color:white;
   text-shadow:1px 1px 5px #000000;
-  width:90%;
+  width:80%;
   position:relative;
 }
 .container > p{
@@ -48,13 +48,6 @@ body{
 .container p a{
   color:rgb(227, 83, 83);
   font-weight:900;
-}
-
-.text-quote{
-  background:rgba(0, 0, 0, 0.4);
-  color:#f1f1f1;
-  padding:12px 10px 12px 10px;
-  background-color:rgba(66,141,48,0.4);
 }
 .container .row{
   display:flex;
@@ -74,7 +67,17 @@ body{
   font-size:15px;
   text-align:center;
 }
-
+.container .quotebox{
+  background:rgba(0, 0, 0, 0.4);
+  color:#f1f1f1;
+  padding:12px 10px 12px 10px;
+  background-color:rgba(66,141,48,0.4);
+}
+.container .quotebox .quote{
+  font-size:27px;
+  font-family:Times New Roman, Times, serif;
+  font-style: italic;
+}
 
 /* Top Navigation Bar */
 .navbar{

@@ -59,7 +59,7 @@ body{
 .container .row{
   display:flex;
 }
-.container .row .column{
+.row .column{
   flex:50%;
 }
 .container img{

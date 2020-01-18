@@ -78,6 +78,12 @@ body{
   font-family:Times New Roman, Times, serif;
   font-style: italic;
 }
+.container .quotebox q:before{
+  content: "❝ ";
+}
+.container .quotebox q:after{
+  content: " ❞";
+}
 
 /* Top Navigation Bar */
 .navbar{

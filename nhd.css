@@ -33,23 +33,49 @@ body{
   color:rgb(227, 83, 83);
 }
 
-.credit{
-  position:fixed;
-  left:calc(12px + 1.0vw);
-  bottom:calc(12px + 1.0vw);
-  padding:14px 16px 14px 16px;
-  font-size:calc(12px + 1.0vw);
+.container{
+  top:100px;
+  font-size:1.3vw;
   color:white;
-  text-shadow:1px 1px 5px #000;
-  background:rgba(0, 0, 0, 0.5);
+  text-shadow:1px 1px 5px #000000;
+  width:70%;
+  position:relative;
 }
-.credit .name{
-  font-weight:600;
-  margin-bottom:13px;
+.text-intro{
+  padding:10px;
+}
+.text-quote{
+  background:rgba(0, 0, 0, 0.4);
+  color:#f1f1f1;
+  padding:12px 10px 12px 10px;
+  background-color:rgba(66,141,48,0.4);
+}
+.row{
+  display:flex;
+}
+.column-1{
+  flex:50%;
+  padding:10px;
+}
+.column-2{
+  flex:50%;
+  padding:10px;
+}
+.image-map-cell{
+  padding:10px;
+}
+.image{
+  width:100%;
+  box-shadow:2px 3px 2px grey;
+}
+.text-caption{
+  font-size:15px;
+  text-align:center;
 }
 
+/* Navigation Bar */
 .navbar{
-  position:absolute;
+  position:relative;
   top:0px;
   right:0px;
   float:right;
@@ -105,6 +131,7 @@ body{
   background:rgba(0, 0, 0, 0.5);
 }
 
+/* Navigation Buttons */
 .icon-bar{
   position:fixed;
   top:50%;
@@ -132,4 +159,20 @@ body{
 .next{
   background-color:#787272;
   color:white;
+}
+
+/* Home Credit Box */
+.credit{
+  position:fixed;
+  left:calc(12px + 1.0vw);
+  bottom:calc(12px + 1.0vw);
+  padding:14px 16px 14px 16px;
+  font-size:calc(12px + 1.0vw);
+  color:white;
+  text-shadow:1px 1px 5px #000;
+  background:rgba(0, 0, 0, 0.5);
+}
+.credit .name{
+  font-weight:600;
+  margin-bottom:13px;
 }

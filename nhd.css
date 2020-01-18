@@ -13,13 +13,11 @@ body{
 }
 
 .header{
-  top:60px;
   height:35%;
   width:100%;
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-  position:relative;
   z-index:-1;
 }
 .header .title{
@@ -75,7 +73,6 @@ body{
 
 /* Navigation Bar */
 .navbar{
-
   float:right;
   background-color:transparent;
   font-size:calc(12px + 0.5vw);

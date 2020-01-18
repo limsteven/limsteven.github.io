@@ -73,6 +73,7 @@ body{
 
 /* Navigation Bar */
 .navbar{
+  overflow: auto;
   float:right;
   background-color:transparent;
   font-size:calc(12px + 0.5vw);

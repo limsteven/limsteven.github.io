@@ -33,6 +33,9 @@ body{
 }
 
 /* Body */
+.container1{
+  position: relative;
+}
 .container{
   position: relative;
   font-size:1.3vw;

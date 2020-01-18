@@ -6,10 +6,16 @@
 body{
 	height:100%;
   margin:0;
-	background-repeat:repeat-y;
+  font-family:'Special Elite';
+}
+
+/* Main Section */
+.main-background{
+  background-image:url(../08343847/uploaded/Untitled_4.png);
+  background-color:#787272;
+  background-repeat:repeat-y;
   background-size:cover;
   background-position:center top;
-  font-family:'Special Elite';
 }
 
 .header{

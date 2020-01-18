@@ -31,13 +31,12 @@ body{
   color:rgb(227, 83, 83);
 }
 
+/* Body */
 .container{
-  top:100px;
   font-size:1.3vw;
   color:white;
   text-shadow:1px 1px 5px #000000;
   width:70%;
-  position:relative;
 }
 .text-intro{
   padding:10px;

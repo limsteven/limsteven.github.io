@@ -84,7 +84,7 @@ blockquote q:after{
   content: " ❞";
 }
 blockquote footer{
-  margin-top: 1.8em;
+  margin-top: 0.8em;
 }
 
 /* Top Navigation Bar */

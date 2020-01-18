@@ -12,6 +12,7 @@ body{
   font-family:'Special Elite';
 }
 
+/* Header */
 .header{
   height:35%;
   width:100%;
@@ -25,9 +26,8 @@ body{
   left:50%;
   transform:translate(-50%, -50%);
   text-align:center;
-  text-shadow:1px 1px 5px #000000;
+  text-shadow:1px 1px 5px #000;
   font-size:calc(20px + 3.0vw);
-  position:absolute;
   color:rgb(227, 83, 83);
 }
 

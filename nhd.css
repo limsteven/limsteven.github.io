@@ -59,6 +59,9 @@ body{
 .container .row{
   display:flex;
 }
+.container .row .column + .column{
+  margin-left: 10px;
+}
 .container .row .column{
   flex:50%;
 }

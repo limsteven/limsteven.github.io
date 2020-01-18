@@ -60,7 +60,7 @@ body{
   display:flex;
 }
 .container .row .column + .column{
-  margin-left: 10px;
+  margin-left: 1em;
 }
 .container .row .column{
   flex:50%;

@@ -35,8 +35,8 @@ body{
 
 .credit{
   position:fixed;
-  left:25px;
-  bottom:25px;
+  left:calc(12px + 1.0vw);
+  bottom:calc(12px + 1.0vw);
   padding:14px 16px 14px 16px;
   font-size:calc(12px + 1.0vw);
   color:white;

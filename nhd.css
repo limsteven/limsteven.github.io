@@ -75,9 +75,7 @@ body{
 
 /* Navigation Bar */
 .navbar{
-  position:relative;
-  top:0px;
-  right:0px;
+
   float:right;
   background-color:transparent;
   font-size:calc(12px + 0.5vw);

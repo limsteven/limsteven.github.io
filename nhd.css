@@ -44,6 +44,7 @@ body{
 }
 .container > p{
   padding:0px;
+  line-height: 1.6;
 }
 .container p a{
   color:rgb(227, 83, 83);

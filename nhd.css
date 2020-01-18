@@ -79,6 +79,7 @@ blockquote {
   color:#f1f1f1;
   padding:12px 10px 12px 10px;
   background-color:rgba(66,141,48,0.4);
+  border-radius: 25px;
 }
 blockquote q{
   font-style: italic;

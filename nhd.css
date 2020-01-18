@@ -84,6 +84,9 @@ blockquote q:before{
 blockquote q:after{
   content: " ❞";
 }
+blockquote figure{
+  margin-top: 0.8em;
+}
 
 /* Top Navigation Bar */
 .navbar{

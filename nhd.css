@@ -258,8 +258,8 @@ blockquote footer{
 /* Credit */
 .credit{
   position:fixed;
-  left:calc(12px + 1.0vw);
-  bottom:calc(12px + 1.0vw);
+  left: 1.0em;
+  bottom: 1.0em;
   padding:14px 16px 14px 16px;
   font-size:calc(12px + 1.0vw);
   color:white;

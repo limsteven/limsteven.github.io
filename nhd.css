@@ -77,7 +77,7 @@ figure figcaption{
 blockquote {
   background:rgba(0, 0, 0, 0.4);
   color:#f1f1f1;
-  padding:12px 10px 12px 10px;
+  padding:1em 0.8em 1em 0.8em;
   background-color:rgba(66,141,48,0.4);
   border-radius: 2em;
 }

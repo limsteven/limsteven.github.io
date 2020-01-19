@@ -202,7 +202,7 @@ a.btn{
   text-align: center;
   transition: all 0.2s;
 }
-a.btn :hover{
+a.btn:hover{
   color: #000000;
   background-color: #FFFFFF;
 }

@@ -61,7 +61,7 @@ body{
   display:flex;
 }
 .container .row .column + .column{
-  margin-left: 1em;
+  margin-left: 1.2em;
 }
 .container .row .column{
   flex:50%;

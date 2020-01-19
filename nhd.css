@@ -11,7 +11,7 @@ body{
 
 /* Main Body */
 .main{
-  margin: 0;
+  height:auto;
   background-image:url(https://site.nhd.org/08343847/uploaded/Untitled_4.png);
   background-color:#787272;
   background-repeat:repeat-y;

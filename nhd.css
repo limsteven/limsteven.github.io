@@ -264,7 +264,7 @@ blockquote footer{
   font-size:calc(12px + 1.0vw);
   color:white;
   text-shadow:1px 1px 5px #000;
-  background:rgba(0, 0, 0, 0.5);
+  background:rgba(66,141,48,0.4);
   border-radius: 1.1em;
 }
 .credit .name{

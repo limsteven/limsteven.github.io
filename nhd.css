@@ -253,7 +253,7 @@ a.btn:hover{
 }
 */
 .bouncy{
-  -webkit-animation: bouncy 5s infinite liner;
+  animation: bouncy 5s infinite liner;
   position: relative;
 }
 @-webkit-keyframes bouncy {
@@ -264,35 +264,6 @@ a.btn:hover{
  48%{top:-0.4em}
  50%{top:0em}
  100%{top:0em;}
-}
-
-@-webkit-keyframes bounce {
-        0% {
-    transform: scale(1,1) translate(0px, 0px);
-  }
-  
-  30%{
-    transform: scale(1,0.8) translate(0px, 10px); 
-  }
-
-  75%{
-    transform: scale(1,1.1) translate(0px, -25px); 
-  }
-  
- 100% {
-    transform: scale(1,1) translate(0px, 0px);
-  }
-}
-
-.bounce {
-      text-align:center;
-      margin:0 auto;
-      margin-top:100px;
-      height:20px;
-      width:150px;
-      padding:20px;  
-      background:tomato;
-     -webkit-animation: bounce 0.75s infinite;
 }
 
 /* Credit */

@@ -64,6 +64,9 @@ body{
 .container .row .column{
   flex:50%;
 }
+.container iframe{
+  width:100%;
+}
 
 figure img{
   width:100%;

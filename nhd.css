@@ -172,19 +172,17 @@ blockquote footer{
   transform:translateY(-50%);
   z-index: 1;
   */
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
   position: relative;
+  text-align: center;
 }
 .icon-bar a{
-  display:block;
+  /*display:block;
   text-align:center;
   padding:14px;
   transition:all 0.3s ease;
   color:white;
   font-size:calc(12px + 0.3vw);
-  text-shadow:1px 1px 5px #000;
+  text-shadow:1px 1px 5px #000;*/
 }
 .icon-bar a:hover{
   /* background-color:#000; 
@@ -193,15 +191,15 @@ blockquote footer{
 .previous{
   /*background-color:#787272;
   color:white;*/
-  float: left;
+  position: relative;
 }
 .next{
   /*background-color:#787272;
   color:white;*/
-  float: right;
+  position: relative;
 }
 .top{
-  
+  position: relative;
 }
 
 a.btn{

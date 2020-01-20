@@ -183,6 +183,7 @@ blockquote footer{
   color:white;
   font-size:calc(12px + 0.3vw);
   text-shadow:1px 1px 5px #000;*/
+  position: relative;
 }
 .icon-bar a:hover{
   /* background-color:#000; 

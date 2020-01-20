@@ -98,9 +98,9 @@ figure img:hover{
   box-shadow: 1px 1px 5px #999;
 }
 figure figcaption{
-  margin-top:0.8em;
-  font-size:1.0rem;
-  text-align:center;
+  margin-top: 0.6em;
+  font-size: 1.0rem;
+  text-align: center;
 }
 
 blockquote {

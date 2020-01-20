@@ -185,18 +185,21 @@ blockquote footer{
   text-shadow:1px 1px 5px #000;
 }
 .icon-bar a:hover{
-  /* background-color:#000; */
-	text-shadow: 0 0 3px #FF0000;
+  /* background-color:#000; 
+	text-shadow: 0 0 3px #FF0000;*/
 }
 .previous{
-  background-color:#787272;
-  color:white;
+  /*background-color:#787272;
+  color:white;*/
   float: left;
 }
 .next{
-  background-color:#787272;
-  color:white;
+  /*background-color:#787272;
+  color:white;*/
   float: right;
+}
+.top{
+  
 }
 
 a.btn{

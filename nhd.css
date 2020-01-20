@@ -23,31 +23,31 @@ body{
 }
 
 .header{
-  top:0px;
+  position:relative;
+  top:0;
   height:35%;
   width:100%;
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-  position:relative;
   z-index:-1;
 }
 .header p{
+  position:relative;
   top:50%;
   left:50%;
   transform:translate(-50%, -50%);
   text-align:center;
   text-shadow:1px 1px 5px #000000;
   font-size:calc(20px + 3.0vw);
-  position:relative;
   color:rgb(227, 83, 83);
 }
 .header figcaption{
   position: absolute;
   bottom: 0.38rem;
-  right: 1rem;
-  text-align: right;
+  right: 0.38rem;
   color: #FFFFFF;
+  font-size: 0.8em;
   text-shadow: 0 0 5px #000000;
 }
 
@@ -73,7 +73,7 @@ body{
   position: relative;
 }
 .container .row .column + .column{
-  margin-left: 1.2em;
+  margin-left: 1.5em;
 }
 .container .row .column{
   flex:50%;

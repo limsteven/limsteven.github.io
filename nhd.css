@@ -215,7 +215,7 @@ a.btn:hover{
   }
 }
 .bouncy{
-  animation: bouncy 5s infinite linear;
+  animation: bouncy 5s 5 linear;
   position: relative;
 }
 @keyframes bouncy {

@@ -42,6 +42,14 @@ body{
   position:relative;
   color:rgb(227, 83, 83);
 }
+.header figcaption{
+  position: absolute;
+  bottom: 0.38rem;
+  right: 1rem;
+  text-align: right;
+  color: #FFFFFF;
+  text-shadow: 0 0 5px #000000;
+}
 
 /* Container */
 .container{

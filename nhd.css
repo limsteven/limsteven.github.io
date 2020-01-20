@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Special+Elite);
 
 *{
-  /*box-sizing:border-box;*/
+  box-sizing: border-box;
 }
 body{
 	height: 100%;
@@ -19,6 +19,7 @@ body{
   background-size:cover;
   background-position:center top;
   position: relative;
+  padding: 50px;
 }
 
 .header{

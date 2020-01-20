@@ -18,6 +18,7 @@ body{
   background-repeat:repeat-y;
   background-size:cover;
   background-position:center top;
+  position: relative;
 }
 
 .header{
@@ -60,6 +61,7 @@ body{
 }
 .container .row{
   display:flex;
+  position: relative;
 }
 .container .row .column + .column{
   margin-left: 1.2em;

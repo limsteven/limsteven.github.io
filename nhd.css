@@ -9,7 +9,8 @@ body{
   padding: 0;
   font-family: 'Special Elite';
 }
-body figcaption{
+
+figcaption.home{
   position:absolute;
   bottom: 0.38rem;
   right: 0.38rem;

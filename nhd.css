@@ -110,6 +110,9 @@ figcaption.home{
 .container iframe.video{
   height:60%;
 }
+.container iframe.document{
+  height: 100%;
+}
 
 figure img{
   width: 100%;

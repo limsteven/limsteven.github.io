@@ -94,7 +94,7 @@ figcaption.home{
   flex:50%;
 }
 .container iframe{
-  width:100%;
+  width: 100%;
   padding: 6px;
   border: solid 1px #EFEFEF;
 }
@@ -111,9 +111,8 @@ figcaption.home{
   height:80%;
 }
 
-
 figure img{
-  width:100%;
+  width: 100%;
   padding: 6px;
   border: solid 1px #EFEFEF;
 }

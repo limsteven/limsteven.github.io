@@ -108,9 +108,9 @@ figure img{
 }
 figure img:hover{
   border: solid 1px #CCC;
-  -moz-box-shadow: 1px 1px 5px #999;
-  -webkit-box-shadow: 1px 1px 5px #999;
-  box-shadow: 1px 1px 5px #999;
+  -moz-box-shadow: 1px 1px 6px #999;
+  -webkit-box-shadow: 1px 1px 6px #999;
+  box-shadow: 1px 1px 6px #999;
 }
 figure figcaption{
   margin-top: 0.6em;
